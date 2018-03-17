@@ -3,7 +3,7 @@ $(document).ready(function() {
   //Get Input for max weight
   $("#button").click(function() {
     let num = document.getElementById("MaxWeight").value
-    num = Number(num) * .9;
+    num = Number(num);
     setNewWeights(num);
   });
 
@@ -12,7 +12,7 @@ $(document).ready(function() {
     let key = e.which;
     if (key == 13) {
       let num = document.getElementById("MaxWeight").value
-      num = Number(num) * .9;
+      num = Number(num);
       setNewWeights(num);
     }
   })
