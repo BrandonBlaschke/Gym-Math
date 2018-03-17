@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <title>Gym Math</title>
+  <!--link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon"-->
+  <!--link rel="icon" href="assets/favicon.ico" type="image/x-icon"-->
+  <meta charset="UTF-8">
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <script type="text/javascript" src="gymMath.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="Center">
+    <div class="Form">
+      <p>Max Weight: <span id="NewWeight">0</span></p>
+      <p class="Note">*Automatically takes 10% from your current max</p><br>
+
+      <div class="row">
+        <div class="col-lg-10">
+          <div class="input-group">
+            <input type="number" placeholder="Weight" class="form-control" id="MaxWeight"> </input>
+            <span class="input-group-btn">
+              <button type="button" class="btn btn-default" id="button">&nbsp;<span class="glyphicon glyphicon-ok"></span></button>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="Values">
+      <p>95% - <span id="95Weight">0</span></p>
+      <p>90% - <span id="90Weight">0</span></p>
+      <p>85% - <span id="85Weight">0</span></p>
+      <p>80% - <span id="80Weight">0</span></p>
+      <p>75% - <span id="75Weight">0</span></p>
+      <p>70% - <span id="70Weight">0</span></p>
+      <p>65% - <span id="65Weight">0</span></p>
+    </div>
+  </div>
+</body>
+
+</html>

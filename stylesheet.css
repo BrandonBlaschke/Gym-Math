@@ -1,0 +1,29 @@
+body {
+  background-color: #31C8F6;
+}
+
+.Center {
+  max-width: 350px;
+  margin: auto;
+}
+
+.Form {
+  font-family: 'Cabin', sans-serif;
+  color: white;
+  font-size: 45px;
+  display: inline;
+}
+
+.Values {
+  font-family: 'Cabin', sans-serif;
+  color: white;
+  font-size: 45px;
+  margin-right: 600px;
+  display: inline;
+}
+
+.Note {
+  font-family: 'Cabin', sans-serif;
+  display: inline;
+  font-size: 15px;
+}
