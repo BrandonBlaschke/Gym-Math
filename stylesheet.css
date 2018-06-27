@@ -38,13 +38,13 @@ body {
   .Form {
     font-family: 'Cabin', sans-serif;
     color: white;
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .Values {
     font-family: 'Cabin', sans-serif;
     color: white;
-    font-size: 50px;
-    padding-left: 0px;
+    font-size: 4  0px;
+    padding-left: 20%;
   }
 }
